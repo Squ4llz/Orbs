@@ -1,0 +1,37 @@
+database:
+  address: 127.0.0.1
+  name: setthis
+  username: setthis
+  password: setthis
+  port: 3306
+messages:
+  prefix: '&8[&3BlitzOrbs&8]'
+  errors:
+    nopermission: '&cYou do not have permission for this!'
+    not-enough-orbs: '&3You do not have enough Orbs for that!'
+    not-enough-orbs-target: '&b{TARGET} &7doesnt have that many orbs to remove!'
+    target-invalid: '&cCould not find player {TARGET}'
+    orbs-must-be-numbers: '&3Orbs must be numerical!'
+  general:
+    orbs-display: '&bOrbs: &7{ORBAMOUNT}'
+    orbs-set: "&7You have set &b{TARGET}''s &7Orbs to &b{ORBAMOUNT}"
+    orbs-set-target: '&7Your Orbs have been set to &b{ORBAMOUNT} &7by &b{PLAYER}'
+    orbs-given: '&7You have given &b{TARGET} &3{ORBAMOUNT} &bOrbs'
+    orbs-given-target: '&7You have been given &3{ORBAMOUNT} &bOrbs &7by &b{PLAYER}'
+    orbs-removed: '&7You have removed &3{ORBAMOUNT} &bOrbs &7from &b{TARGET}'
+    orbs-removed-target: '&3{ORBAMOUNT} &bOrbs &7removed by &b{PLAYER}'
+    orbs-sent: '&7You have sent &b{TARGET} &3{ORBAMOUNT} &bOrbs!'
+    orbs-sent-target: '&7You have been sent &b{ORBAMOUNT} &3Orbs &7by &b{PLAYER}'
+    reloaded: '&7Configuration Reloaded!'
+  formats:
+    reload: '&3Usage: /orbs reload'
+    set: '&3Usage: /orbs set <player> <amount>'
+    give: '&3Usage: /orbs give <player> <amount>'
+    remove: '&3Usage: /orbs remove <player> <amount>'
+    send: '&3Usage: /orbs send <player> <amount>'
+
+##---PlaceHolders---##
+#{ORBAMOUNT} - Replaces with amount of Orbs in SET/GIVE/CHECKING ORBS
+#{PLAYER} - Replaces with the name of the person giving/setting orbs. OR Console if used through Console
+##{TARGET} - Replaces with the name of the person you are giving/setting the orbs of
+######################

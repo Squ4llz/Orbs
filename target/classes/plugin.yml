@@ -1,0 +1,7 @@
+name: Orbs
+version: 5.6
+main: com.Squallz.Orbs.MainClass
+description: SQL-based Orbs Currency
+commands:
+  Orbs:
+    description: Base Orbs command
